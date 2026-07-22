@@ -10,7 +10,7 @@ public:
 
             minbestEnding = min(min(v1,v2),v3);
          
-            maxbestEnding = max(v2,v3);
+            maxbestEnding = max(max(v1,v2),v3);
           
 
             ans = max(ans,max(abs(minbestEnding),abs(maxbestEnding)));
